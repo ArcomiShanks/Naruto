@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎注册</title>
+    <style>
+        #a {
+            background: blue;
+            float:left;
+            width:100px;
+            height:100px;
+        }
+        #b{
+            background:yellow;
+            float:left;
+            width:100px;
+            height:100px;
+        }
+        #c{
+            background:green;
+            float:left;
+            width:100px;
+            height:100px;
+        }
+        #d{
+            background:pink;
+            float:left;
+            width:100px;
+            height:100px;
+        }
+        #e{
+            clear:left;
+        }
+    </style>
+</head>
+<body>
+    <form action="./regist.php" method="post">
+    <div id="a">
+        <h1>欢</h1>
+    </div>
+    <div id="b">
+        <h1>迎</h1>
+    </div>
+    <div id="c">
+        <h1>注</h1>
+    </div>
+    <div id="d">
+        <h1>册</h1>
+    </div>
+    <div id="e">
+        <p>
+            您的用户名：
+            <input type="text" name="userName">
+        </p>
+        <p>
+            您的密码：
+            <input type="password" name="password">
+        </p>
+        <p>
+            请再次输入您的密码：
+            <input type="password" name="password2">
+        </p>
+        <p>
+            请输入您的手机号码：
+            <input type="text" name="phone">
+        </p>
+        <p>
+            写一段个人简介来说说自己吧：
+            <input type="text" name="individual">
+        </p>
+        <p>
+            <input type="submit" value="马上注册!">
+        </p>
+    </div>
+</body>
+</html>

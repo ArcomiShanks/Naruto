@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发送微博</title>
+    <style>
+        #a{
+            border:5px dashed pink;
+            font-style: italic;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="a">
+        请键入内容噢...
+    </div>
+    <form action="sentblog.php" method="post">
+        <p>
+            微博标题：
+            <input type="text" name="title" style="width:300px;">
+        </p>
+        <p>请输入微博正文（不超过200字）：</p>
+        <textarea id="b" style="width:300px;height: 300px;" name="text"></textarea>
+        <p>
+            <input type="submit" value="发送">
+        </p>
+        <p>
+            微博类型:
+            <select name="blogType">
+                <option value="体育">体育</option>
+                <option value="生活">生活</option>
+                <option value="美食">美食</option>
+                <option value="新闻">新闻</option>
+                <option value="娱乐">娱乐</option>
+            </select>
+        </p>
+    </form>
+</body>
+</html>
